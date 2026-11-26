@@ -1,0 +1,24 @@
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+
+# Python
+.venv/
+__pycache__/
+
+# AWS credentials and secrets
+.aws/
+*.pem
+*.key
+.env
+.env.*
+
+# IDE files
+.vscode/
